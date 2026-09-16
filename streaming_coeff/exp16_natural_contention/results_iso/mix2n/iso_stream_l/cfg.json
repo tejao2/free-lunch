@@ -1,0 +1,1 @@
+{"tenants": [{"name":"stream_l","pid":1726668,"grp":"/sys/fs/resctrl/iso_stream_l","priority":2,"cores":"12-15"}]}

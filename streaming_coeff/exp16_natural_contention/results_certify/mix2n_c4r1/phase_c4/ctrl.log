@@ -1,0 +1,16 @@
+[23:44:16] coeffd4 up (free-lunch-scoped, band cache model, aggressor-first): 4 tenants, 15 ways, floor margin 5%, nature stable after 3 scans
+[23:44:16] coeffd3 v9 up (v8 + nature-ordered throttle: tier-0 streamer / tier-1 sanctioned donors, iterate, stand down on tier-2): 4 tenants, 15 ways, gate=20.0pp, mba_trigger=10.0pp
+[23:44:32] SETTLED (healed): alloc={} mba={} hurt=[]
+[23:44:52] unmanaged baseline anchored for 4/4 tenants
+[23:47:53] SETTLED (healed): alloc={} mba={} hurt=[]
+[23:50:57] coeffd3 shutting down: restoring masks/MBA, stopping perf
+Traceback (most recent call last):
+  File "/home/tejendra/litmus/streaming_coeff/coeffd/coeffd4.py", line 938, in <module>
+    main()
+  File "/home/tejendra/litmus/streaming_coeff/coeffd/coeffd4.py", line 929, in main
+    d.run()
+  File "/home/tejendra/litmus/streaming_coeff/coeffd/coeffd4.py", line 911, in run
+    self.record("summary", sanctioned_breaches=self.breaches,
+  File "/home/tejendra/litmus/streaming_coeff/coeffd/coeffd3.py", line 587, in record
+    self.decisions.write(json.dumps(kw) + "\n")
+ValueError: I/O operation on closed file.

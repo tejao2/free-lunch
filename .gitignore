@@ -1,0 +1,97 @@
+# ALLOWLIST: ignore everything, then re-include only what the public repo
+# carries. To publish a new file, add a `!` line for it (and for each parent
+# directory that is not already included).
+
+/*
+!/.gitignore
+!/README.md
+
+# ── controller ───────────────────────────────────────────────────────────
+!/streaming_coeff/
+/streaming_coeff/*
+!/streaming_coeff/coeffd/
+/streaming_coeff/coeffd/*
+!/streaming_coeff/coeffd/coeffd3.py
+!/streaming_coeff/coeffd/coeffd4.py
+!/streaming_coeff/coeffd/coeffd4.1.py
+!/streaming_coeff/coeffd/COEFFD4_DESIGN.md
+!/streaming_coeff/coeffd/test_coeffd4.py
+!/streaming_coeff/coeffd/test_coeffd4_1.py
+
+# ── scene harness + peer controllers + grading ───────────────────────────
+!/streaming_coeff/exp16_natural_contention/
+/streaming_coeff/exp16_natural_contention/*
+!/streaming_coeff/exp16_natural_contention/run_certify.sh
+!/streaming_coeff/exp16_natural_contention/bench_lib.sh
+!/streaming_coeff/exp16_natural_contention/run_iso.sh
+!/streaming_coeff/exp16_natural_contention/run_mix2_oracle.sh
+!/streaming_coeff/exp16_natural_contention/certify.py
+!/streaming_coeff/exp16_natural_contention/iso_report.py
+!/streaming_coeff/exp16_natural_contention/peer_metrics.py
+!/streaming_coeff/exp16_natural_contention/grade_spider.py
+!/streaming_coeff/exp16_natural_contention/spidersense_style.py
+!/streaming_coeff/exp16_natural_contention/satori_style.py
+!/streaming_coeff/exp16_natural_contention/dcat_style.py
+!/streaming_coeff/exp16_natural_contention/cacheman_style.py
+!/streaming_coeff/exp16_natural_contention/test_satori_style.py
+!/streaming_coeff/exp16_natural_contention/test_dcat_style.py
+!/streaming_coeff/exp16_natural_contention/test_cacheman_style.py
+
+# ── results we cite ──────────────────────────────────────────────────────
+!/streaming_coeff/exp16_natural_contention/results_iso/
+/streaming_coeff/exp16_natural_contention/results_iso/*
+!/streaming_coeff/exp16_natural_contention/results_iso/D3/
+!/streaming_coeff/exp16_natural_contention/results_iso/mix2n/
+
+!/streaming_coeff/exp16_natural_contention/results_certify/
+/streaming_coeff/exp16_natural_contention/results_certify/*
+# D3: every run shown in the headline figures
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_order/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_c4_400b/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_spider/
+!/streaming_coeff/exp16_natural_contention/results_certify/spider_state.json
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_spconv/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_spconv400/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_rep_spider_conv/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_rep_sat_conv/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_rep_sat_conv2/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_rep_band_dp/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_rep_band_dp2/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_rep_cm_nest/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_dcat/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_dcat_thr1/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_palloc/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_palloc2/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_cacheman/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_cacheman2/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_cacheman_socket/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_null/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_null2/
+# D3: coeffd4.1
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_c41_400/
+!/streaming_coeff/exp16_natural_contention/results_certify/D3_c41_400_2/
+# mix2 (scene mix2n)
+!/streaming_coeff/exp16_natural_contention/results_certify/mix2n_teeth/
+!/streaming_coeff/exp16_natural_contention/results_certify/mix2n_spider/
+!/streaming_coeff/exp16_natural_contention/results_certify/mix2n_spider_r2/
+!/streaming_coeff/exp16_natural_contention/results_certify/mix2n_spider_r3/
+!/streaming_coeff/exp16_natural_contention/results_certify/mix2n_spider*_state.json
+!/streaming_coeff/exp16_natural_contention/results_certify/mix2n_spconv_r*/
+!/streaming_coeff/exp16_natural_contention/results_certify/mix2n_c4r*/
+!/streaming_coeff/exp16_natural_contention/results_certify/mix2n_c41r*/
+
+# ── figures (images only, no plotting scripts) ───────────────────────────
+!/streaming_coeff/figures/
+/streaming_coeff/figures/*
+!/streaming_coeff/figures/headline_d3.png
+!/streaming_coeff/figures/headline_d3.pdf
+!/streaming_coeff/figures/headline_single_d3.png
+!/streaming_coeff/figures/headline_single_d3.pdf
+!/streaming_coeff/figures/claim1_solo_key.png
+!/streaming_coeff/figures/claim1_per_mix.png
+!/streaming_coeff/figures/mix2_tenants.png
+!/streaming_coeff/figures/mix2_tenants.pdf
+
+# never, anywhere
+__pycache__/
+*.pyc

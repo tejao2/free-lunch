@@ -1,0 +1,1 @@
+{"tenants": [{"name":"sphinx","pid":1710988,"grp":"/sys/fs/resctrl/iso_sphinx","priority":2,"cores":"2-3","lat_file":"/home/tejendra/litmus/streaming_coeff/exp16_natural_contention/results_iso/mix2n/sphinx/run/live.txt"}]}

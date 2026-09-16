@@ -1,0 +1,14 @@
+[23:09:25] spidersense_style up: 5 tenants, 15 ways, search=exhaustive, objective=max SUM IPC (tail-blind)
+[23:09:27] ALGORITHM 2 chunk 1: 519/993 done, 474 remaining (~7.9 min), 8 anchors
+[23:09:47] instance gate ok: npb_ep_e=n/a canneal=3.016/2.905(+3.8%) npb_cg_d80=112.547/112.854(+0.3%)
+[23:11:35]   100 this chunk, 619/993 total, 1.7 min
+[23:13:15]   200 this chunk, 719/993 total, 3.3 min
+[23:14:56]   300 this chunk, 819/993 total, 5.0 min
+[23:16:36]   400 this chunk, 919/993 total, 6.7 min
+[23:17:50] chunk 1 done: 474 configs, 0 still to go
+[23:17:50] between-chunk drift 0.0348 (removed by anchor correction); residual anchor noise 0.0495
+[23:17:50] !! top-5 gap 0.0370 <= noise floor 0.0989: the argmax is NOT resolvable. Report it as a tie, not a winner -- and note that SpiderSense itself decides on 1 s samples, so this limit is theirs too.
+[23:17:50] runoff over top 5 configs (same scene, same chunk)
+[23:17:55] masks published: {'llama': '7000', 'npb_ep_e': 'c00', 'canneal': '3c0', 'npb_cg_d80': '3e', 'npb_mg_d300': '1'}
+[23:17:55] BestConfiguration = {'llama': 3, 'npb_ep_e': 2, 'canneal': 4, 'npb_cg_d80': 5, 'npb_mg_d300': 1}  (sum IPC 9.149)
+[23:20:15] spidersense_style shutting down: restoring

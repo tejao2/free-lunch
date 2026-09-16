@@ -1,0 +1,1 @@
+{"tenants": [{"name":"llama","pid":2379703,"grp":"/sys/fs/resctrl/cert_llama","priority":2,"cores":"18-21"}, {"name":"npb_mg_d300","pid":2379694,"grp":"/sys/fs/resctrl/cert_npb_mg_d300","priority":2,"cores":"14-17"}]}

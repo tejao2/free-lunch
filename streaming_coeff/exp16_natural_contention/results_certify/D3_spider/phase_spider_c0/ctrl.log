@@ -1,0 +1,11 @@
+[22:45:16] spidersense_style up: 5 tenants, 15 ways, search=exhaustive, objective=max SUM IPC (tail-blind)
+[22:45:18] ALGORITHM 2 chunk 0: 0/993 done, 993 remaining (~16.6 min), 8 anchors
+[22:45:38] instance gate ok: npb_ep_e=n/a canneal=3.017/2.905(+3.8%) npb_cg_d80=112.546/112.854(+0.3%)
+[22:47:26]   100 this chunk, 100/993 total, 1.7 min
+[22:49:06]   200 this chunk, 200/993 total, 3.3 min
+[22:50:46]   300 this chunk, 300/993 total, 5.0 min
+[22:52:27]   400 this chunk, 400/993 total, 6.7 min
+[22:54:07]   500 this chunk, 500/993 total, 8.4 min
+[22:54:26] chunk 0 done: 519 configs, 474 still to go
+[22:54:26] search INCOMPLETE -- relaunch the scene and resume with the same --state file
+[22:54:26] spidersense_style shutting down: restoring

@@ -1,0 +1,1 @@
+{"tenants": [{"name":"pr","pid":1721586,"grp":"/sys/fs/resctrl/iso_pr","priority":2,"cores":"8-11"}]}

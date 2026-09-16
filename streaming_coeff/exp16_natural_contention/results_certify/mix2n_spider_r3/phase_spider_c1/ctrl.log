@@ -1,0 +1,11 @@
+[23:23:27] spidersense_style up: 4 tenants, 15 ways, search=exhaustive, objective=max SUM IPC (tail-blind)
+[23:23:29] ALGORITHM 2 chunk 1: 190/356 done, 166 remaining (~2.8 min), 8 anchors
+[23:23:49] !! instance gate MISMATCH (continuing, --fp-mode warn): memcached 3.748 vs iso 3.489 (7.4% > 6%)
+[23:23:49]    probes in this chunk are tagged; grade_spider.py will flag them rather than silently mixing instances.
+[23:25:37]   100 this chunk, 290/356 total, 1.7 min
+[23:26:43] chunk 1 done: 166 configs, 0 still to go
+[23:26:43] between-chunk drift 0.0128 (removed by anchor correction); residual anchor noise 0.1125
+[23:26:43] runoff over top 5 configs (same scene, same chunk)
+[23:26:48] masks published: {'memcached': '4000', 'sphinx': '3e00', 'pr': '1f0', 'stream_l': 'f'}
+[23:26:48] BestConfiguration = {'memcached': 1, 'sphinx': 5, 'pr': 5, 'stream_l': 4}  (sum IPC 5.032)
+[23:28:47] spidersense_style shutting down: restoring

@@ -1,0 +1,1 @@
+{"tenants": [{"name":"npb_cg_d80","pid":1862780,"grp":"/sys/fs/resctrl/iso_npb_cg_d80","priority":2,"cores":"6-9"}]}

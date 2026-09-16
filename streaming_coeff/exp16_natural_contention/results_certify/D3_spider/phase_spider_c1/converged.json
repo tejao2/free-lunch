@@ -1,0 +1,31 @@
+{
+ "ways": {
+  "llama": 3,
+  "npb_ep_e": 2,
+  "canneal": 4,
+  "npb_cg_d80": 5,
+  "npb_mg_d300": 1
+ },
+ "masks": {
+  "llama": "7000",
+  "npb_ep_e": "c00",
+  "canneal": "3c0",
+  "npb_cg_d80": "3e",
+  "npb_mg_d300": "1"
+ },
+ "sum_ipc": 9.1495,
+ "order": [
+  "llama",
+  "npb_ep_e",
+  "canneal",
+  "npb_cg_d80",
+  "npb_mg_d300"
+ ],
+ "resolvable": false,
+ "anchor_drift": 0.0348,
+ "anchor_resid": 0.0495,
+ "noise_floor": 0.0989,
+ "topk_gap": 0.037,
+ "measured": 993,
+ "chunks": 2
+}

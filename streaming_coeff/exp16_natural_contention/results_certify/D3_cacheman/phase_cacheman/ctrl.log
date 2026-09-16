@@ -1,0 +1,2 @@
+[20:32:45] cacheman_style up: 5 tenants ['canneal', 'llama', 'npb_cg_d80', 'npb_ep_e', 'npb_mg_d300'], 15 ways (60 MiB), ladder sizes=[15, 13, 11, 9, 7, 5, 3, 1]
+[20:39:29] cacheman_style down: restoring full masks

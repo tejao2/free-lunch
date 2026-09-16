@@ -1,0 +1,28 @@
+{
+ "ways": {
+  "memcached": 1,
+  "sphinx": 5,
+  "pr": 5,
+  "stream_l": 4
+ },
+ "masks": {
+  "memcached": "4000",
+  "sphinx": "3e00",
+  "pr": "1f0",
+  "stream_l": "f"
+ },
+ "sum_ipc": 5.0324,
+ "order": [
+  "memcached",
+  "sphinx",
+  "pr",
+  "stream_l"
+ ],
+ "resolvable": true,
+ "anchor_drift": 0.0128,
+ "anchor_resid": 0.1125,
+ "noise_floor": 0.225,
+ "topk_gap": 0.5401,
+ "measured": 356,
+ "chunks": 2
+}

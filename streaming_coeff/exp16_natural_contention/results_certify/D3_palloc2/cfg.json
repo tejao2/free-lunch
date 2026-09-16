@@ -1,0 +1,1 @@
+{"tenants": [{"name":"llama","pid":774183,"grp":"/sys/fs/resctrl/cert_llama","priority":2,"cores":"18-21"}, {"name":"npb_mg_d300","pid":774177,"grp":"/sys/fs/resctrl/cert_npb_mg_d300","priority":2,"cores":"14-17"}], "solo_ipc": "/home/tejendra/litmus/streaming_coeff/exp16_natural_contention/results_iso/D3/solo_ipc.json"}

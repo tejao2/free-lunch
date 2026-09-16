@@ -1,0 +1,8 @@
+[23:08:16] spidersense_style up: 4 tenants, 15 ways, search=exhaustive, objective=max SUM IPC (tail-blind)
+[23:08:18] ALGORITHM 2 chunk 0: 0/356 done, 356 remaining (~5.9 min), 8 anchors
+[23:08:38] !! instance gate MISMATCH (continuing, --fp-mode warn): memcached 3.744 vs iso 3.489 (7.3% > 6%)
+[23:08:38]    probes in this chunk are tagged; grade_spider.py will flag them rather than silently mixing instances.
+[23:10:26]   100 this chunk, 100/356 total, 1.7 min
+[23:11:56] chunk 0 done: 190 configs, 166 still to go
+[23:11:56] search INCOMPLETE -- relaunch the scene and resume with the same --state file
+[23:11:56] spidersense_style shutting down: restoring

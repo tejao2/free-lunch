@@ -1,0 +1,2 @@
+[12:43:20] dcat_style up: 5 tenants ['canneal', 'llama', 'npb_cg_d80', 'npb_ep_e', 'npb_mg_d300'], 15 ways, entitlement=[3, 3, 3, 3, 3], pool=0 (reserved 0)
+[12:50:01] dcat_style down: restoring full masks
